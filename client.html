@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clients - Crown Pipes</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- FontAwesome for Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff;
+      color: #333;
+    }
+
+    .clients-banner {
+      background: #090a0b;
+      padding: 20px 0;
+      color: #ffffff;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .clients-section {
+      padding: 40px;
+      text-align: center;
+    }
+
+    .clients-section h2 {
+      margin-bottom: 40px;
+      font-size: 2rem;
+    }
+
+    .client-grid {
+      display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+    }
+
+    .client {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 15px;
+      text-align: center;
+    }
+
+    .client img {
+      width: 150px;
+      height: 150px;
+      object-fit: contain;
+    }
+
+    .client p {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #f8f9fa;
+      padding: 60px 20px 30px;
+    }
+
+    footer h5 {
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    footer a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    footer a:hover {
+      color: #007bff;
+    }
+
+    .social-icons a {
+      margin-right: 10px;
+      color: #333;
+    }
+
+    .social-icons a:hover {
+      color: #007bff;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid #ccc;
+      margin-top: 30px;
+      padding-top: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">
+      <img src="images/logo.png" alt="Logo" style="height: 50px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="about.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link active" href="client.html">Clients</a></li>
+        <li class="nav-item"><a class="nav-link active" href="product.html">Our Products</a></li>
+        <li class="nav-item"><a class="nav-link active" href="qulity.html">Quality Assurance</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Banner -->
+  <section class="clients-banner">
+    <h1>CLIENTS</h1>
+  </section>
+
+  <!-- Client Section -->
+  <section class="clients-section">
+    <h2>Our Clients</h2>
+    <div class="client-grid">
+      <div class="client">
+        <img src="images/railway.png" alt="Railway Contractors">
+        <p>Railway Contractors</p>
+      </div>
+      <div class="client">
+        <img src="images/road.png" alt="Road Contractors">
+        <p>Road Contractors</p>
+      </div>
+      <div class="client">
+        <img src="images/drainage.png" alt="Drainage System Contractors">
+        <p>Drainage System Contractors</p>
+      </div>
+      <div class="client">
+        <img src="images/elecrical.png" alt="Electrical Contractors">
+        <p>Electrical Contractors</p>
+      </div>
+      <div class="client">
+        <img src="images/infrastructure.png" alt="Infrastructure Projects">
+        <p>Infrastructural Projects Contractors</p>
+      </div>
+      <div class="client">
+        <img src="images/airport.png" alt="Airport Contractors">
+        <p>Airport Development Contractors</p>
+      </div>
+      <div class="client">
+        <img src="images/dock.png" alt="Dock & Ship Yard Development Contractors">
+        <p>Dock & Ship Yard Development Contractors</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+<!-- Bootstrap Footer with Contact Us Section -->
+<footer class="bg-dark text-light pt-5 pb-4">
+  <div class="container text-md-left">
+    <div class="row">
+
+      <!-- Quick Links -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold">Quick Links</h5>
+        <p><a href="index.html" class="text-light text-decoration-none">Home</a></p>
+        <p><a href="about.html" class="text-light text-decoration-none">About Us</a></p>
+        <p><a href="product.html" class="text-light text-decoration-none">Our Products</a></p>
+        <p><a href="qulity.html" class="text-light text-decoration-none">Quality Assurance</a></p>
+        <p><a href="client.html" class="text-light text-decoration-none">Clients</a></p>
+      </div>
+
+      <!-- Our Products -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold">Our Products</h5>
+        <p><a href="hdpe.html" class="text-light text-decoration-none">HDPE Pipe</a></p>
+        <p><a href="mdpe.html" class="text-light text-decoration-none">MDPE Pipe</a></p>
+        <p><a href="plb.html" class="text-light text-decoration-none">PLB Duct Pipe</a></p>
+        <p><a href="sheathing.html" class="text-light text-decoration-none">Sheathing Pipe</a></p>
+      </div>
+
+      <!-- Contact Us -->
+      <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold">Contact Us</h5>
+        <p><i class="fas fa-home mr-3"></i> Pune, Maharashtra, India</p>
+        <p><i class="fas fa-envelope mr-3"></i> info@bjindustry.com</p>
+        <p><i class="fas fa-phone mr-3"></i> +91 12345 67890</p>
+        <p><i class="fas fa-phone mr-3"></i> +91 98765 43210</p>
+      </div>
+
+    </div>
+
+    <hr class="mb-4">
+
+    <div class="row align-items-center">
+      <div class="col-md-7 col-lg-8">
+        <p>© 2025 BJ INDUSTRY. All Rights Reserved.</p>
+      </div>
+      
+    </div>
+
+  </div>
+</footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
